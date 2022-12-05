@@ -8,7 +8,7 @@ i = int(input("Введите кол-во знаков после зяпятой
 while i < 1 or i > 10:
     i = int(input("Введите кол-во знаков после зяпятой от 1 до 10: "))
 else:
-    print(10**-i, round(math.pi, i), sep=' ->')
+    print(10 ** - i, round(math.pi, i), sep = ' ->')
 
 
 

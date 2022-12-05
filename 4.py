@@ -8,16 +8,16 @@ def mnogochlen():
     k=int(input("Введите степень: "))
     from random import randint
     result=list()
-    while k>=0:
-        if k==1:
+    while k >= 0:
+        if k == 1:
             result.append(f'{randint(1,100)}*x')
-        elif k==0:
-            result.append(randint(1,100))
+        elif k == 0:
+            result.append(randint(1, 100))
         else:
             result.append(f'{randint(1,100)}*x^{k}')
         result.append('+')
-        k-=1
-    result.pop(-1)
+        k -= 1
+    result.pop( - 1)
     result.append('=0')
     return result
 

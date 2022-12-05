@@ -13,6 +13,7 @@ print(a)
 
 
 
+
 # numbers = list(map(int, input("Введите числа через пробел: ").split()))
 # print(numbers)
 # new_numbers = []
